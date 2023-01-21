@@ -1,0 +1,800 @@
+
+
+/*		Default Layout: 1080px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+.mainweb{
+	width:1080px;
+	margin:0 auto;
+}
+#selectnav1{
+	display:none;
+}
+#button_section{
+	display:none;
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	
+	
+.mainweb{
+	width:95%;
+}
+#responsive-menu{
+	display:none;
+}
+#selectnav1{
+	display:block;
+	float:right;
+}
+#main_meddle{
+	height:10%;
+}
+#selectnav1{
+	margin-top:3%;
+}
+#nav_manu {
+  width: 60%;
+  float: left;
+  margin-left:0;
+  margin-top:0;
+}
+#nav_logo {
+  width: 40%;
+  margin-left:0;
+}
+#main_meddle {
+  height: 10%;
+  width: 100%;
+}
+#soceal{
+	width:30%;
+}
+#fist_content{
+	width:100%;
+}
+#fist_content h1{
+	width:100%;
+}
+#right_image{
+	width:100%;
+}
+#right_image img{
+	width:100%;
+}
+#content-head{
+	width:100%;
+}
+#content-head img{
+	width:100%;
+}
+#content-threeco11{
+	width:100%;
+}
+#coloum3 img{
+	margin-left: 40%;
+}
+#forth{
+	width:100%;
+}
+#forth img{
+	margin-left: 30%;
+}
+#forth2{
+	width:100%;
+}
+#forth2 img{
+	margin-left: 30%;
+}
+#forth3{
+	width:100%;
+}
+#forth3 img{
+	margin-left: 30%;
+}
+#forth4{
+	width:100%;
+}	
+#forth4 img{
+	margin-left: 30%;
+}	
+#five-left p{
+	margin-left:20%;
+}
+#five_image img{
+	width:100%;
+}
+#six_head{
+	margin-left:45%;
+}
+#eight_from input{
+	width:80%;
+	padding:0;
+	margin-top:0;
+}
+#eight_from{
+	margin-left:60px;
+}
+#eight_from textarea{
+	width:80%;
+	height:100px;
+	padding:0;
+}
+#eight_image{
+	width:100%;
+}
+#eight_image img{	
+	width:100%;
+}
+#eight_button button{
+	margin-left:45%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#nineth-section{
+	width:100%;
+}
+#nineth-section p{
+	width:200px;
+	margin-left:40%;
+}
+#nineth_button{
+	margin-left:60px;
+}
+#tenth-sction4{
+	margin-left:40%;
+}
+#footer_section img{
+	margin-left:50%;
+	margin-bottom:20px;
+}
+#footer_section p{
+	margin-left:20%;
+}
+#six_head{
+	margin-left:10px;
+	width:170px;
+}
+#six-sction{
+	width:100%
+}
+#five_image img{
+	margin-left:0;
+}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	
+.mainweb{
+	width:100%;
+}
+#responsive-menu{
+	display:none;
+}
+#selectnav1{
+	display:block;
+	float:right;
+}
+#main_meddle{
+	height:10%;
+}
+#selectnav1{
+	margin-top:3%;
+}
+#nav_manu {
+  width: 60%;
+  float: left;
+  margin-left:0;
+  margin-top:0;
+}
+#nav_logo {
+  width: 40%;
+  margin-left:0;
+}
+#main_meddle {
+  height: 10%;
+  width: 100%;
+}
+#soceal{
+	margin-left:25%;
+}
+#fist_content{
+	width: 95%;
+	padding:0;
+}
+#fist_content h1{
+	width:95%;
+}
+#fist_content button{
+	margin-left:40px;
+}
+#right_image{
+	width:95%;
+}
+#right_image img{
+	width:95%;
+}
+#content-head{
+	width:95%;
+}
+#content-head img{
+	width:95%;
+}
+#content-threeco11{
+	width:95%;
+}
+#coloum1 p{
+	margin-left:30%;
+}
+#coloum1 h1{
+	margin-left:30px;
+}
+#coloum1 p{
+	margin-left:10%;
+}
+#coloum2 img{
+	margin-left:40px;
+}
+#coloum2 p{
+	margin-left:30px;
+}
+#coloum3 img{
+	margin-left:40px;
+}
+#third-left{
+	width:95%;
+}
+#third-left h1{
+	width:95%;
+}
+#third-left p{
+	margin-left:30%;
+}
+#third-right{
+	width:95%;
+}
+.mainweb{
+	width:95%;
+}
+#forth_meddel h1{
+	width:100%;
+}
+#forth_meddel p{
+	width:100%;
+}
+#forth{
+	margin-left:25px;
+}
+#forth2{
+	margin-left:25px;
+}
+#forth3{
+	margin-left:25px;
+}
+#forth4{
+	margin-left:25px;
+}
+#five_meddel h1{
+	width:100%;
+}
+#five_meddel p{
+	width:100%;
+}
+#five-left p{
+	width:100%;
+}
+
+#five_image img{
+	width:95%;
+	margin-left:0;
+}
+#five-left{
+	width:100%;
+}
+#five-left p{
+	width:100%;
+}
+#saven_contact h1{
+	width:100%;
+}
+#eight_head{
+	width:100%;
+}
+#eight_from{
+	width:100%;
+}
+#eight_image{
+	width:100%;
+}
+#eight_image img{
+	width:100%;
+}
+#eight_button button{
+	margin-left:20%
+}
+#eight_button button{
+	margin-bottom: 20px;
+}
+#nineth_button button{
+	padding:10px 80px;
+	display: block;
+}
+#tenth-sction1{
+	width:95%;
+}
+#tenth-sction2{
+	width:100%;
+}
+#tenth-sction3{
+	width:100%;
+}
+#footer_section img{
+	width:50px;
+}
+#footer_section p{
+	margin-left:20%;
+}
+#nineth_button{
+	margin-left:10%;
+	margin-bottom:5%;
+	width:95%;
+}
+#eight_from input{
+	margin-top:0;
+}
+#footer_section img{
+	margin-left:40%;
+}	
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+.mainweb{
+	width:100%;
+}
+#responsive-menu{
+	display:none;
+}
+#selectnav1{
+	display:block;
+	float:right;
+}
+#main_meddle{
+	height:10%;
+}
+#selectnav1{
+	margin-top:3%;
+}
+#nav_manu {
+  width: 60%;
+  float: left;
+  margin-left:0;
+  margin-top:0;
+}
+#nav_logo {
+  width: 40%;
+  margin-left:0;
+}
+#main_meddle {
+  height: 10%;
+  width: 100%;
+}
+#soceal{
+	margin-left:25%;
+}
+#fist_content{
+	width: 95%;
+	padding:0;
+}
+#fist_content h1{
+	width:95%;
+}
+#fist_content button{
+	margin-left:40px;
+}
+#right_image{
+	width:95%;
+}
+#right_image img{
+	width:95%;
+}
+#content-head{
+	width:95%;
+}
+#content-head img{
+	width:95%;
+}
+#content-threeco11{
+	width:95%;
+}
+#coloum1 p{
+	margin-left:30%;
+}
+#coloum1 h1{
+	margin-left:30px;
+}
+#coloum1 p{
+	margin-left:10%;
+}
+#coloum2 img{
+	margin-left:40px;
+}
+#coloum2 p{
+	margin-left:30px;
+}
+#coloum3 img{
+	margin-left:40px;
+}
+#third-left{
+	width:95%;
+}
+#third-left h1{
+	width:95%;
+}
+#third-left p{
+	margin-left:30%;
+}
+#third-right{
+	width:95%;
+}
+.mainweb{
+	width:95%;
+}
+#forth_meddel h1{
+	width:100%;
+}
+#forth_meddel p{
+	width:100%;
+}
+#forth{
+	margin-left:25px;
+}
+#forth2{
+	margin-left:25px;
+}
+#forth3{
+	margin-left:25px;
+}
+#forth4{
+	margin-left:25px;
+}
+#five_meddel h1{
+	width:100%;
+}
+#five_meddel p{
+	width:100%;
+}
+#five-left p{
+	width:100%;
+}
+
+#five_image img{
+	width:95%;
+	margin-left:0;
+}
+#five-left{
+	width:100%;
+}
+#five-left p{
+	width:100%;
+}
+#saven_contact h1{
+	width:100%;
+}
+#eight_head{
+	width:100%;
+}
+#eight_from{
+	width:100%;
+}
+#eight_image{
+	width:100%;
+}
+#eight_image img{
+	width:100%;
+}
+#eight_button button{
+	margin-left:20%
+}
+#eight_button button{
+	margin-bottom: 20px;
+}
+#nineth_button button{
+	padding:10px 80px;
+	display: block;
+}
+#tenth-sction1{
+	width:95%;
+}
+#tenth-sction2{
+	width:100%;
+}
+#tenth-sction3{
+	width:100%;
+}
+#footer_section img{
+	width:50px;
+}
+#footer_section p{
+	margin-left:20%;
+}
+#nineth_button{
+	margin-left:10%;
+	margin-bottom:5%;
+	width:95%;
+}
+#eight_from input{
+	margin-top:0;
+}
+#footer_section img{
+	margin-left:40%;
+}
+#forth{
+	margin-left:20%;
+}
+#forth2{
+	margin-left:20%;
+}
+#forth3{
+	margin-left:20%;
+}
+#forth4{
+	margin-left:20%;
+}
+#six_head{
+	margin-left:30%;
+}
+#eight_from input{
+	width:100%;
+	padding-top:10px;
+}
+#eight_from textarea{
+	width:90%;
+	padding-bottom:40%;
+}
+
+
+	
+	
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	.mainweb{
+	width:100%;
+}
+#responsive-menu{
+	display:none;
+}
+#selectnav1{
+	display:block;
+	float:right;
+}
+#main_meddle{
+	height:10%;
+}
+#selectnav1{
+	margin-top:3%;
+}
+#nav_manu {
+  width: 60%;
+  float: left;
+  margin-left:0;
+  margin-top:0;
+}
+#nav_logo {
+  width: 40%;
+  margin-left:0;
+}
+#main_meddle {
+  height: 10%;
+  width: 100%;
+}
+#soceal{
+	margin-left:25%;
+}
+#fist_content{
+	width: 95%;
+	padding:0;
+}
+#fist_content h1{
+	width:95%;
+}
+#fist_content button{
+	margin-left:40px;
+}
+#right_image{
+	width:95%;
+}
+#right_image img{
+	width:95%;
+}
+#content-head{
+	width:95%;
+}
+#content-head img{
+	width:95%;
+}
+#content-threeco11{
+	width:95%;
+}
+#coloum1 p{
+	margin-left:30%;
+}
+#coloum1 h1{
+	margin-left:30px;
+}
+#coloum1 p{
+	margin-left:10%;
+}
+#coloum2 img{
+	margin-left:40px;
+}
+#coloum2 p{
+	margin-left:30px;
+}
+#coloum3 img{
+	margin-left:40px;
+}
+#third-left{
+	width:95%;
+}
+#third-left h1{
+	width:95%;
+}
+#third-left p{
+	margin-left:30%;
+}
+#third-right{
+	width:95%;
+}
+.mainweb{
+	width:95%;
+}
+#forth_meddel h1{
+	width:100%;
+}
+#forth_meddel p{
+	width:100%;
+}
+#forth{
+	margin-left:25px;
+}
+#forth2{
+	margin-left:25px;
+}
+#forth3{
+	margin-left:25px;
+}
+#forth4{
+	margin-left:25px;
+}
+#five_meddel h1{
+	width:100%;
+}
+#five_meddel p{
+	width:100%;
+}
+#five-left p{
+	width:100%;
+}
+
+#five_image img{
+	width:95%;
+	margin-left:0;
+}
+#five-left{
+	width:100%;
+}
+#five-left p{
+	width:100%;
+}
+#saven_contact h1{
+	width:100%;
+}
+#eight_head{
+	width:100%;
+}
+#eight_from{
+	width:100%;
+}
+#eight_image{
+	width:100%;
+}
+#eight_image img{
+	width:100%;
+}
+#eight_button button{
+	margin-left:20%
+}
+#eight_button button{
+	margin-bottom: 20px;
+}
+#nineth_button button{
+	padding:10px 80px;
+	display: block;
+}
+#tenth-sction1{
+	width:95%;
+}
+#tenth-sction2{
+	width:100%;
+}
+#tenth-sction3{
+	width:100%;
+}
+#footer_section img{
+	width:50px;
+}
+#footer_section p{
+	margin-left:20%;
+}
+#nineth_button{
+	margin-left:10%;
+	margin-bottom:5%;
+	width:95%;
+}
+#eight_from input{
+	margin-top:0;
+}
+#footer_section img{
+	margin-left:40%;
+}
+	
+	
+	
+	
+	
+	
+}
